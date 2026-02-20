@@ -1,0 +1,6 @@
+BRIAN HANNIGAN
+AI Systems Architect designing offline-first AI deployments and model orchestration.
+LLMs
+Model Hosting
+AI Integration
+Prompt Engineering

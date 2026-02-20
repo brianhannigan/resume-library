@@ -1,0 +1,7 @@
+BRIAN HANNIGAN
+Cybersecurity Engineer specializing in SIEM, detection engineering, and secure systems.
+SIEM
+KQL
+Threat Hunting
+STIGs
+Vulnerability Management

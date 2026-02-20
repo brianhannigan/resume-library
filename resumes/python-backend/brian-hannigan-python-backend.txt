@@ -1,0 +1,7 @@
+BRIAN HANNIGAN
+Backend-focused Python Engineer specializing in REST APIs and modular service design.
+Python
+REST APIs
+SQL
+Git
+Docker
