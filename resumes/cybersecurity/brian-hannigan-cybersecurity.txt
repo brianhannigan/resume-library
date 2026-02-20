@@ -1,7 +1,35 @@
 BRIAN HANNIGAN
-Cybersecurity Engineer specializing in SIEM, detection engineering, and secure systems.
-SIEM
-KQL
-Threat Hunting
-STIGs
-Vulnerability Management
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Cybersecurity Engineer and Systems Builder with experience supporting secure deployments, hardening, compliance-aligned engineering, and threat-hunting portfolio development (KQL/SIEM). Strong technical foundation across Windows/Linux systems, scripting, and operational troubleshooting.
+
+CORE SKILLS
+- SIEM / Threat Hunting: KQL, investigation workflows, detection engineering concepts
+- Hardening & Compliance: DISA STIG alignment, secure configuration, audit-ready documentation
+- Vulnerability Management: scanning concepts, remediation workflows, risk tracking
+- Tools: Git, PowerShell/Bash, Windows/Linux, Docker (as needed)
+- Reporting: executive-ready summaries, SOPs, evidence collection organization
+
+SECURITY PORTFOLIO
+- KQL Threat Hunting Beginner Guide — GitHub: github.com/brianhannigan/kql-threathunting-beginner-guide
+- Threat hunt scenario experience and SOC-style labs (portfolio-driven).
+
+EXPERIENCE
+- UTRS, Inc — Secure Systems / Technical Systems Engineer (2011–2025)
+- Applied DISA STIG-aligned secure configuration standards and vulnerability scanning practices.
+- Supported secure deployments through hardening, documentation, and compliance-focused engineering.
+- Performed structured troubleshooting and remediation to reduce operational risk and improve system reliability.
+- Produced documentation and deployment procedures supporting sustainment and audit readiness.
+- Supported operational troubleshooting to improve reliability and reduce downtime.
+
+KEY PROJECTS
+- Portable Translator — local/offline system orchestration with logging and reliable service startup patterns.
+
+EDUCATION
+- M.Ed., Special Education — New Jersey City University
+- B.S., Criminal Justice — University of Delaware
+
+CERTIFICATIONS & CREDENTIALS
+- CompTIA Security+ • InfraGard Member • SOC Core Skills • Active Defense & Cyber Deception • Red Team Summit • Hacking Humans

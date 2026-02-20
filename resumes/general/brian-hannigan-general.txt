@@ -1,5 +1,44 @@
 BRIAN HANNIGAN
-Senior Software Engineer and Systems Architect delivering secure, scalable enterprise systems.
-System Architecture
-Enterprise Applications
-Secure Deployment
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Senior Software Engineer, Technical Systems Architect, and Security-focused builder with 15+ years delivering secure, scalable systems across mission-critical environments. Experienced in backend services, automation, API-driven workflows, and deployment standardization. Known for disciplined execution, documentation, and stakeholder communication.
+
+CORE SKILLS
+- Languages: Python, C#, SQL, Bash
+- Backend: REST APIs, JSON, HTTP, Service-Oriented Design
+- Databases: SQLite, SQL Server, MySQL (plus general relational modeling)
+- Tools: Git, Docker, Windows, Linux
+- Security: Hardening, compliance-aligned engineering, vulnerability scanning concepts
+- Strengths: Debugging, documentation, requirements translation, cross-functional delivery
+
+FEATURED PROJECTS
+- Portable Translator (Python APIs, OCR + translation orchestration) — GitHub: github.com/brianhannigan/translator
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and iterative feature delivery; maintained clean repo organization and documentation.
+
+EXPERIENCE
+- UTRS, Inc — Lead Technical Instructor / Simulation Systems Engineer (2011–2025)
+- Designed and deployed simulation training ecosystems for U.S. Government/DoD programs across multiple sites.
+- Built and sustained instructor/operator tooling, automation workflows, and repeatable deployment procedures.
+- Produced clear technical documentation, SOPs, and handoff-ready training materials for long-term sustainment.
+- Applied secure configuration practices and compliance expectations (e.g., DISA STIG alignment) in system deployments.
+- Partnered with stakeholders to translate requirements into deliverable software/system outcomes in fast-paced environments.
+- Applied DISA STIG-aligned secure configuration standards and vulnerability scanning practices.
+- Supported secure deployments through hardening, documentation, and compliance-focused engineering.
+- Performed structured troubleshooting and remediation to reduce operational risk and improve system reliability.
+
+ADDITIONAL EXPERIENCE
+- Web Developer • SharePoint/.NET Consultant • Software Engineer • Independent Consultant • Teacher (Technology & Special Education)
+
+EDUCATION
+- M.Ed., Special Education — New Jersey City University
+- B.S., Criminal Justice — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS & CREDENTIALS
+- CompTIA Security+ • InfraGard Member • SOC Core Skills • Active Defense & Cyber Deception • Red Team Summit • Hacking Humans

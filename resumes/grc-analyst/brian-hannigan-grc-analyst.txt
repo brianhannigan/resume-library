@@ -1,7 +1,32 @@
 BRIAN HANNIGAN
-GRC Analyst specializing in compliance, risk assessments, HIPAA, SOC 2, and NIST alignment.
-NIST
-SOC 2
-HIPAA
-Risk Assessments
-Audit Documentation
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+GRC Analyst and compliance-focused security professional with experience supporting secure deployments, evidence-driven documentation, and risk-aware engineering. Skilled in organizing artifacts, writing clear workpapers, and aligning technical realities to control expectations (HIPAA, NIST-style controls, SOC 2 concepts).
+
+CORE SKILLS
+- GRC: risk assessments, evidence collection, control mapping, gap tracking, remediation planning
+- Framework Exposure: HIPAA Security Rule, NIST-style controls, SOC 2 concepts, audit support workflows
+- Documentation: policies/procedures support, workpapers, stakeholder interview notes, audit trails
+- Technical Depth: Windows/Linux basics, secure configuration expectations, vulnerability remediation concepts
+- Tools: Excel/Sheets tracking, structured templates, repeatable reporting
+
+RELEVANT EXPERIENCE (COMPLIANCE + DOCUMENTATION)
+- Secure deployments and compliance-aligned engineering practices in mission-critical environments.
+- Produced SOPs, technical documentation, and sustainment materials that support audit readiness.
+- Supported troubleshooting/remediation workflows to reduce risk and improve reliability.
+
+SECURITY & COMPLIANCE FOCUS
+- DISA STIG alignment awareness, vulnerability scanning concepts, secure configuration practices.
+- Evidence organization mindset: inventories, screenshots, logs, configuration baselines, and change tracking.
+
+PROJECTS
+- Portable Translator — reliable local services with logging, error handling, and repeatable startup workflows.
+
+EDUCATION
+- M.Ed., Special Education — New Jersey City University
+- B.S., Criminal Justice — University of Delaware
+
+CERTIFICATIONS & PROFESSIONAL DEVELOPMENT
+- CompTIA Security+ • Active SOC/GRC course progression and portfolio-building

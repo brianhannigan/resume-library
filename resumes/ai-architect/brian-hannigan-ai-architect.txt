@@ -1,6 +1,38 @@
 BRIAN HANNIGAN
-AI Systems Architect designing offline-first AI deployments and model orchestration.
-LLMs
-Model Hosting
-AI Integration
-Prompt Engineering
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+AI Systems Architect and offline-first builder focused on practical AI integration, model orchestration, and deployable workflows. Experienced delivering AI-enabled services (OCR + translation) with strong emphasis on reliability, security boundaries, and documentation.
+
+CORE SKILLS
+- AI Systems: model orchestration, offline-first deployment patterns, pipeline design
+- APIs & Services: REST, JSON, modular service boundaries, logging and observability
+- Automation: scripting, repeatable deployments, configuration management patterns
+- Tools: Python, Docker, Git, Windows/Linux
+- Communication: executive briefings, documentation, training and enablement
+
+FLAGSHIP AI PROJECT
+- Portable Translator — Offline AI translation + OCR orchestration (GitHub: github.com/brianhannigan/translator)
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and iterative feature delivery; maintained clean repo organization and documentation.
+
+EXPERIENCE
+- UTRS, Inc — AI Advisor / Technical Systems Architect (2011–2025)
+- Delivered training ecosystems and technical solutions with a strong focus on operational reliability.
+- Created documentation, SOPs, and enablement materials supporting adoption and sustainment.
+- Applied compliance-minded practices and secure configuration expectations to deployments.
+
+SELECTED CAPABILITIES
+- Workflow mapping and value mapping approaches for aligning automation/AI to measurable outcomes.
+- Risk-aware system design (security boundaries, reliability, maintainability).
+
+EDUCATION
+- M.Ed., Special Education — New Jersey City University
+- B.S., Criminal Justice — University of Delaware
+
+CERTIFICATIONS
+- CompTIA Security+ • InfraGard Member • Continued AI/cyber professional development

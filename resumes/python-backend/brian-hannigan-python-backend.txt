@@ -1,7 +1,39 @@
 BRIAN HANNIGAN
-Backend-focused Python Engineer specializing in REST APIs and modular service design.
-Python
-REST APIs
-SQL
-Git
-Docker
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Backend-focused Python Engineer and Systems Architect experienced building RESTful APIs, modular services, and data-driven workflows. Strong foundation in OOP, debugging, and performance-minded development with production discipline from mission-critical deployments.
+
+CORE SKILLS
+- Python: APIs, services, tooling, scripting
+- Backend: REST, JSON, HTTP, request validation, error handling
+- Databases: SQLite, SQL fundamentals, relational modeling
+- Tools: Git, Docker, Windows/Linux
+- Engineering: OOP, data structures, debugging, logging
+
+FEATURED PYTHON PROJECT
+- Portable Translator — Python Backend & API Services (GitHub: github.com/brianhannigan/translator)
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and iterative feature delivery; maintained clean repo organization and documentation.
+
+EXPERIENCE
+- UTRS, Inc — Technical Systems Engineer / Software Developer (2011–2025)
+- Built automation and support tooling; produced repeatable deployment workflows and documentation.
+- Delivered reliable systems under operational constraints; improved uptime through disciplined troubleshooting.
+- Supported secure configurations and compliance-aligned deployment standards.
+
+ADDITIONAL TECHNICAL STRENGTHS
+- Comfortable working across product + engineering stakeholders to ship maintainable backend capabilities.
+- Able to operate independently in remote environments; strong written communication and documentation habits.
+
+EDUCATION
+- M.Ed., Special Education — New Jersey City University
+- B.S., Criminal Justice — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+ (plus continued professional development in GRC and cyber range labs)
