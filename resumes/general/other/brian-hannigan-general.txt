@@ -1,0 +1,46 @@
+BRIAN HANNIGAN
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Senior Software Engineer, Technical Systems Architect, and security-focused builder with 15+ years delivering secure, scalable systems across mission-critical environments. Experienced in backend services, automation, API-driven workflows, and deployment standardization.
+
+CORE SKILLS
+- Languages: Python, C#, SQL, Bash
+- Backend: REST APIs, JSON, HTTP, Service-Oriented Design
+- Databases: SQLite, SQL fundamentals, relational modeling
+- Tools: Git, Docker, Windows, Linux
+- Security: Hardening, compliance-aligned engineering, vulnerability scanning concepts
+- Strengths: Debugging, documentation, requirements translation, cross-functional delivery
+
+EXPERIENCE
+- Log(N) Pacific — Cyber Security Support Analyst (Vulnerability Management & SecOps Intern) (2025–Present)
+- Vulnerability Management: Tenable scans, risk prioritization, DISA STIG audits, PowerShell automation.
+- Security Operations: EDR threat hunting, MDE detections, Sentinel dashboards, KQL investigations, NSG/firewall hardening.
+- 
+- UTRS, Inc — Technical Systems Engineer / Trainer / Systems Architect (2011–2025)
+- Mission-critical delivery, documentation, repeatable deployments, and compliance-aligned secure configuration support.
+- 
+- Independent Consulting — Software Engineer / Security & Automation Consultant (Various)
+- Client delivery, automation workflows, and documentation-first implementations.
+
+FEATURED PROJECTS
+- Portable Translator — Offline OCR + Translation Services (github.com/brianhannigan/translator)
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and maintained clean repo organization and documentation.
+
+EDUCATION
+- Master’s — New Jersey City University
+- B.S. — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+
+- InfraGard Member
+- SOC Core Skills
+- Active Defense & Cyber Deception
+- Red Team Summit
+- Hacking Humans: Social Engineering & Elicitation

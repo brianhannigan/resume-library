@@ -1,0 +1,42 @@
+BRIAN HANNIGAN
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Cybersecurity Engineer and systems builder with hands-on vulnerability management and SecOps internship experience, plus long-term secure systems delivery in mission-critical environments.
+
+CORE SKILLS
+- Vulnerability Management: Tenable, risk prioritization, remediation reporting, Windows/Linux exposure
+- Security Operations: EDR hunting, MDE detections, tabletop scenario design, incident triage concepts
+- SIEM: Sentinel dashboards, KQL investigations, threat intelligence enrichment concepts
+- Hardening: NSG/firewall rules, exposure reduction, DISA STIG audit concepts
+- Documentation: workpapers, evidence organization, audit-ready reporting
+
+EXPERIENCE
+- Log(N) Pacific — Cyber Security Support Analyst (Vulnerability Management & SecOps Intern) (2025–Present)
+- Vulnerability scans + remediation reporting; 100% reduction in critical, 90% in high, 76% in medium vulnerabilities.
+- Tenable risk prioritization across Windows/Linux; DISA STIG audits; PowerShell remediation automation.
+- EDR hunting; MDE detection rules; Sentinel dashboards; KQL investigations; exposure hardening via NSG/firewall.
+- 
+- UTRS, Inc — Secure Systems / Technical Systems Engineer (2011–2025)
+- Secure configuration support, compliance-aligned deployments, documentation discipline, operational troubleshooting.
+- 
+- Independent Consulting — Security & Automation Consultant (Various)
+- Evidence-friendly documentation, remediation tracking templates, delivery support.
+
+SECURITY PORTFOLIO
+- KQL Threat Hunting Beginner Guide — github.com/brianhannigan/kql-threathunting-beginner-guide
+- Portable Translator — local/offline services with logging and repeatable startup workflows.
+
+EDUCATION
+- Master’s — New Jersey City University
+- B.S. — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+
+- InfraGard Member
+- SOC Core Skills
+- Active Defense & Cyber Deception
+- Red Team Summit
+- Hacking Humans: Social Engineering & Elicitation

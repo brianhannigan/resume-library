@@ -1,0 +1,56 @@
+BRIAN HANNIGAN Senior Software Engineer | Cybersecurity | Vulnerability
+Management | Security+ 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan GitHub:
+github.com/brianhannigan CompTIA Security+ | InfraGard Member | 14+
+Years Government Systems Experience
+
+PROFESSIONAL SUMMARY
+
+Cybersecurity-focused Senior Software Engineer with 14+ years supporting
+mission-critical U.S. Government systems. Experienced in DISA STIG
+hardening, vulnerability remediation, secure configuration validation,
+and secure deployment practices. Currently serving as a Cyber Security
+Support Analyst focusing on Vulnerability Management and Security
+Operations, with hands-on experience in Tenable, Microsoft Defender for
+Endpoint, and Microsoft Sentinel.
+
+PROFESSIONAL EXPERIENCE
+
+Log(N) Pacific — Cyber Security Support Analyst (Vulnerability
+Management & SecOps Intern) 2025–Present
+
+• Conducted vulnerability scans and provided detailed remediation
+reports, contributing to a 100% reduction in critical, 90% reduction in
+high, and 76% reduction in medium vulnerabilities. • Performed
+vulnerability assessments and risk prioritization using Tenable across
+Windows and Linux environments. • Executed secure configurations and
+compliance audits (DISA STIG) using Tenable to meet industry standards.
+• Automated remediation processes and STIG implementations using
+PowerShell to address critical vulnerabilities. • Performed threat
+hunting using EDR, identifying indicators of brute force attacks, data
+exfiltration, and ransomware activity. • Designed and tested advanced
+threat hunting scenarios for incident response tabletop exercises. •
+Developed custom detection rules in Microsoft Defender for Endpoint to
+automate isolation and investigation of compromised systems. • Reduced
+brute force incidents by 100% by implementing inbound NSG/firewall rules
+to limit Internet exposure. • Created Microsoft Sentinel dashboards to
+monitor logon failures and malicious traffic using threat intelligence.
+• Utilized KQL to query logs within SIEM and EDR platforms for
+investigation and detection purposes.
+
+UTRS, Inc — Senior Software Engineer / Secure Systems Engineer
+Government Training & Simulation Programs | 2011–Present
+
+• Designed, developed, and maintained mission-critical training systems
+for U.S. Government programs. • Implemented DISA STIG hardening across
+Windows-based environments. • Conducted vulnerability remediation based
+on Nessus scan findings. • Validated secure configuration baselines in
+accordance with government security requirements. • Reviewed system logs
+during troubleshooting and security investigations. • Authored system
+documentation and operational procedures. • Performed configuration
+validation using PowerShell and Bash scripting. • Ensured secure data
+handling practices within government environments.
+
+CERTIFICATIONS
+
+• CompTIA Security+ • InfraGard Member

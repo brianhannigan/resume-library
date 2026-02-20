@@ -1,0 +1,44 @@
+BRIAN HANNIGAN
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+AI Systems Architect and offline-first builder focused on practical AI integration, deployable workflows, reliability, and documentation.
+
+CORE SKILLS
+- Offline-first architecture, deterministic workflows, deployment repeatability
+- APIs & Services: REST, JSON, modular boundaries, logging/observability
+- Automation: scripting, repeatable deployments, configuration patterns
+- Tools: Python, Git, Docker, Windows/Linux
+- Enablement: training, SOPs, stakeholder briefings
+
+EXPERIENCE
+- Log(N) Pacific — Cyber Security Support Analyst (Vulnerability Management & SecOps Intern) (2025–Present)
+- Security operations + VM workflows reinforcing reliability and evidence discipline.
+- 
+- Independent Consulting — Software Engineer / Automation Consultant (Various)
+- Workflow automation patterns designed for maintainability and operational handoff.
+- 
+- UTRS, Inc — Technical Systems Architect (2011–2025)
+- Mission-critical delivery with emphasis on sustainment documentation and repeatable deployments.
+
+FLAGSHIP PROJECT
+- Portable Translator — Offline OCR + Translation Orchestration (github.com/brianhannigan/translator)
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and maintained clean repo organization and documentation.
+
+EDUCATION
+- Master’s — New Jersey City University
+- B.S. — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+
+- InfraGard Member
+- SOC Core Skills
+- Active Defense & Cyber Deception
+- Red Team Summit
+- Hacking Humans: Social Engineering & Elicitation

@@ -5,5 +5,8 @@
   "linkedin": "linkedin.com/in/brianjhannigan",
   "github": "github.com/brianhannigan",
   "location": "Remote | 07876",
-  "libreoffice_path": "C:/Program Files/LibreOffice/program/soffice.exe"
+  "libreoffice_path": "C:\\Program Files\\LibreOffice\\program\\soffice.exe",
+  "resume_format": "madakor",
+  "formats": ["classic", "madakor", "onepage"],
+  "variants": ["general", "python-backend", "cybersecurity", "ai-architect", "grc-analyst", "python-entry"]
 }

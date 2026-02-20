@@ -1,0 +1,40 @@
+BRIAN HANNIGAN
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+GRC Analyst and compliance-focused security professional with experience supporting secure deployments, evidence-driven documentation, and risk-aware engineering.
+
+CORE SKILLS
+- GRC: risk assessments, evidence collection, control mapping, gap tracking, remediation planning
+- Assessment Support: stakeholder interviews, documentation review, audit trails, follow-up tracking
+- Framework Exposure: HIPAA concepts, NIST concepts, SOC 2 concepts
+- Technical Context: vulnerability remediation workflows, secure configuration, Windows/Linux exposure
+- Communication: concise writing, executive-ready summaries, status reporting
+
+EXPERIENCE
+- Log(N) Pacific — Cyber Security Support Analyst (Vulnerability Management & SecOps Intern) (2025–Present)
+- Evidence-friendly remediation reporting and control-aligned activities (Tenable scans, DISA STIG audits, automation).
+- Measurable risk reduction outcomes (critical/high/medium reductions; exposure hardening).
+- 
+- Independent Consulting — Security & Automation Consultant (Various)
+- Structured trackers + documentation templates supporting audit readiness and follow-ups.
+- 
+- UTRS, Inc — Technical Systems Engineer (2011–2025)
+- SOPs, sustainment artifacts, deployment documentation, compliance-aligned operational practices.
+
+PROJECTS
+- Portable Translator — reliable local services with logging and repeatable startup workflows.
+
+EDUCATION
+- Master’s — New Jersey City University
+- B.S. — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+
+- InfraGard Member
+- SOC Core Skills
+- Active Defense & Cyber Deception
+- Red Team Summit
+- Hacking Humans: Social Engineering & Elicitation

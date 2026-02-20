@@ -1,0 +1,45 @@
+BRIAN HANNIGAN
+Remote | 07876 | (862) 243-1177 | jobshannigan@gmail.com
+LinkedIn: linkedin.com/in/brianjhannigan | GitHub: github.com/brianhannigan
+
+PROFESSIONAL SUMMARY
+Backend-focused Python Engineer experienced building RESTful APIs, modular services, and data-driven workflows.
+
+CORE SKILLS
+- Python: APIs, services, tooling, scripting
+- Backend: REST, JSON, HTTP, validation, error handling
+- Databases: SQLite, SQL fundamentals, relational modeling
+- Tools: Git, Docker, Windows/Linux
+- Engineering: OOP, data structures, debugging, logging
+
+EXPERIENCE
+- Log(N) Pacific — Cyber Security Support Analyst (Vulnerability Management & SecOps Intern) (2025–Present)
+- Tenable-based vulnerability scanning and remediation reporting; DISA STIG audits; PowerShell automation.
+- EDR hunting, Sentinel dashboards, KQL investigations, and NSG/firewall hardening.
+- 
+- Independent Consulting — Software Engineer / Security & Automation Consultant (Various)
+- Python utilities and API-driven workflows; documentation-first delivery.
+- 
+- UTRS, Inc — Technical Systems Engineer / Software Developer (2011–2025)
+- Automation tooling, repeatable deployment procedures, disciplined troubleshooting, sustainment documentation.
+
+FEATURED PYTHON PROJECT
+- Portable Translator — Python Backend & API Services (github.com/brianhannigan/translator)
+- Designed and implemented Python-based REST services supporting OCR and AI translation workflows.
+- Built HTTP endpoints with structured JSON request/response handling and robust validation.
+- Integrated Tesseract OCR and local translation engines into modular, testable service boundaries.
+- Implemented logging, error handling, and process monitoring to improve reliability and debuggability.
+- Used Git for version control and maintained clean repo organization and documentation.
+
+EDUCATION
+- Master’s — New Jersey City University
+- B.S. — University of Delaware
+- Programming Diploma — Chubb Institute
+
+CERTIFICATIONS
+- CompTIA Security+
+- InfraGard Member
+- SOC Core Skills
+- Active Defense & Cyber Deception
+- Red Team Summit
+- Hacking Humans: Social Engineering & Elicitation
