@@ -1,0 +1,22 @@
+# Copy this to config.yml and edit if needed.
+
+# Global defaults
+defaults:
+  timezone: "America/New_York"
+  # If true, filter "remote" using simple heuristics on title/location/description.
+  infer_remote: true
+
+# USAJOBS search configuration (optional)
+usajobs:
+  enabled: true
+  keywords: ["Software Engineer", "Python", ".NET"]
+  locations: ["Remote"]
+  # Accepts: "remote", "not-remote", or "" to ignore
+  remote_preference: ""
+  results_per_page: 50
+
+# RSS feeds (add as many as you like)
+rss_feeds:
+  - name: "Indeed - .NET Remote"
+    url: "https://www.indeed.com/rss?q=.NET+developer+remote"
+  # Add corporate career RSS feeds here as well

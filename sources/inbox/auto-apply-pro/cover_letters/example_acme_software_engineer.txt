@@ -1,0 +1,20 @@
+Dear Hiring Manager,
+
+I'm excited to apply for the Software Engineer role at Acme Corp. With experience spanning 20+ years across C#, .NET, Python, automation, and DevSecOps, I deliver measurable outcomes that matter.
+
+Why I’m a match
+- Your needs: build reliable systems, ship features, and improve quality.
+- My track record: reduced deployment lead time by 60% and incidents by 40%; led cross-functional launches across Dev, QA, and Ops.
+
+Selected, relevant wins
+- Automated CI/CD pipelines, cutting lead time from days to hours.
+- Built scalable APIs and services.
+- Mentored engineers; standardized training and documentation.
+
+Fit for your JD
+I’d translate ambiguous requirements into secure, testable features and add observability to prevent regressions.
+
+Best regards,
+Brian Hannigan
+BrianHannigan68@gmail.com • (862) 243-1177 • Succasunna, NJ
+https://brianhannigan.com • https://github.com/<myhandle> • https://www.linkedin.com/in/<myhandle>/

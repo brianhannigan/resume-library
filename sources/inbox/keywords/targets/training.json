@@ -1,0 +1,36 @@
+{
+  "must_have": [
+    "Technical Training",
+    "Curriculum Development",
+    "Lesson Planning",
+    "Instructor-Led Training",
+    "Virtual Instructor-Led Training",
+    "VR",
+    "AR",
+    "Unity",
+    "Unreal",
+    "Simulation",
+    "Instructor Operator Station",
+    "Classroom Integration",
+    "AV",
+    "Networking",
+    "DoD",
+    "DISA STIGs",
+    "Nessus",
+    "SOPs",
+    "Documentation"
+  ],
+  "nice_to_have": [
+    "Developer Experience",
+    "Stakeholder Communication",
+    "Vendor Management",
+    "Cost Analysis",
+    "Docker",
+    "Git",
+    "IIS",
+    "SQL Server",
+    "SharePoint",
+    "Windows",
+    "Linux"
+  ]
+}

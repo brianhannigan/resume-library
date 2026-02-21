@@ -1,0 +1,36 @@
+{
+  "must_have": [
+    "C#",
+    ".NET",
+    "Python",
+    "DevSecOps",
+    "Cybersecurity",
+    "Security+",
+    "Docker",
+    "REST APIs",
+    "SQL Server",
+    "SQLite",
+    "Git",
+    "CI/CD",
+    "GitHub Actions",
+    "Unity",
+    "Unreal",
+    "VR/AR",
+    "AI",
+    "Automation",
+    "DoD"
+  ],
+  "nice_to_have": [
+    "STIG",
+    "Nessus",
+    "Kubernetes",
+    "Azure DevOps",
+    "Bash",
+    "Powershell",
+    "SharePoint",
+    "TCP/IP",
+    "SSL",
+    "SSH",
+    "React"
+  ]
+}

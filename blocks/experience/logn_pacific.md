@@ -1,11 +1,11 @@
-﻿# Log(N) Pacific â€” Cyber Security Support Analyst (Vulnerability Management & SecOps Intern)
-**Dates:** 2025â€“Present
-
-## Vulnerability Management (Bullets)
-- [Add bullets here]
-
-## Security Operations (Bullets)
-- [Add bullets here]
-
-## Tools
-- Tenable, MDE, Sentinel, KQL, PowerShell, NSG/Firewall
+﻿- Conducted vulnerability assessments using Tenable across Windows and Linux server environments.
+- Prioritized remediation efforts based on risk severity and business impact analysis.
+- Implemented PowerShell-based remediation scripts to address critical and high vulnerabilities.
+- Contributed to measurable reduction of critical and high-severity vulnerabilities within managed server environments.
+- Performed DISA STIG compliance validation and remediation support.
+- Participated in endpoint threat hunting activities using Microsoft Defender for Endpoint.
+- Investigated indicators of compromise related to brute force attempts and anomalous logon activity.
+- Developed KQL queries in Microsoft Sentinel to analyze authentication logs and network telemetry.
+- Assisted in implementation of inbound firewall and NSG rule adjustments to reduce external attack surface exposure.
+- Created dashboards in Microsoft Sentinel to monitor logon failures and suspicious activity patterns.
+- Supported development and testing of detection scenarios for internal security exercises.

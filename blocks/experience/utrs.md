@@ -1,11 +1,10 @@
-﻿# UTRS, Inc â€” Senior Software Engineer / Secure Systems Engineer
-**Dates:** 2011â€“2025 (or Present if applicable)
-
-## Secure Systems / Compliance (Bullets)
-- [Add bullets here]
-
-## Engineering / Delivery (Bullets)
-- [Add bullets here]
-
-## Tools
-- Windows, Linux, PowerShell, Bash, STIG, Nessus, .NET, etc.
+﻿- Supported development and secure deployment of mission-critical DoD training and simulation systems across distributed enterprise environments.
+- Participated in DISA STIG implementation and remediation activities to maintain secure Windows and Linux system baselines.
+- Assisted in vulnerability identification and remediation efforts using Nessus and security configuration audits.
+- Contributed to secure system hardening, patch management validation, and compliance documentation for government environments.
+- Supported troubleshooting and resolution of security-related configuration issues in classified and controlled environments.
+- Developed and maintained .NET-based applications supporting training and simulation platforms.
+- Collaborated with cross-functional teams including engineers, trainers, and cybersecurity personnel to ensure secure system delivery.
+- Produced technical documentation, deployment guides, and operational procedures for secure system configuration.
+- Supported secure software lifecycle practices including configuration management and version control.
+- Worked within controlled environments supporting federal cybersecurity and operational security requirements.

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Auto-Apply Pro</title>
+</head>
+<body class="bg-gray-50 text-slate-900">
+  <nav class="px-6 py-4 bg-white shadow">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <a href="/" class="font-bold">Auto-Apply Pro</a>
+      <div class="space-x-4">
+        <a class="text-blue-600" href="/upload">Generate Cover Letter</a>
+        <a class="text-blue-600" href="/applications">Applications</a>
+      </div>
+    </div>
+  </nav>
+  <main class="max-w-6xl mx-auto p-6">
+    {% block body %}{% endblock %}
+  </main>
+</body>
+</html>

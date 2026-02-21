@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+<h2 class="text-xl font-semibold mb-4">Generated Cover Letter</h2>
+<div class="bg-white p-4 rounded shadow whitespace-pre-wrap">{{ cl }}</div>
+<div class="mt-4">
+  <p>Saved to:</p>
+  <ul class="list-disc ml-5">
+    <li>{{ out.txt }}</li>
+    {% if out.docx %}<li>{{ out.docx }}</li>{% endif %}
+    {% if out.pdf %}<li>{{ out.pdf }}</li>{% endif %}
+  </ul>
+</div>
+<a href="/applications/{{ app_id }}" class="inline-block mt-4 px-4 py-2 bg-slate-800 text-white rounded">View Application Record</a>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block body %}
+<h2 class="text-xl font-semibold mb-4">Application #{{ row.id }}</h2>
+<div class="grid grid-cols-2 gap-6">
+  <div class="bg-white p-4 rounded shadow">
+    <h3 class="font-semibold">Meta</h3>
+    <p><strong>Company:</strong> {{ row.company }}</p>
+    <p><strong>Title:</strong> {{ row.title }}</p>
+    <p><strong>Status:</strong> {{ row.status }}</p>
+    <p><strong>URL:</strong> <a class="text-blue-600" href="{{ row.job_url }}" target="_blank">{{ row.job_url }}</a></p>
+  </div>
+  <div class="bg-white p-4 rounded shadow">
+    <h3 class="font-semibold">Artifacts</h3>
+    <p><strong>Resume:</strong> {{ row.resume_path }}</p>
+    <p><strong>Cover Letter:</strong> {{ row.cover_letter_path }}</p>
+  </div>
+</div>
+{% endblock %}

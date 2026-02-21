@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block body %}
+<h2 class="text-xl font-semibold mb-4">Applications</h2>
+<table class="w-full bg-white rounded shadow">
+  <thead>
+    <tr class="text-left bg-slate-100">
+      <th class="p-2">Date</th>
+      <th class="p-2">Company</th>
+      <th class="p-2">Title</th>
+      <th class="p-2">Status</th>
+      <th class="p-2">Link</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for r in rows %}
+    <tr class="border-t">
+      <td class="p-2 text-sm">{{ r.datetime_utc }}</td>
+      <td class="p-2">{{ r.company }}</td>
+      <td class="p-2">{{ r.title }}</td>
+      <td class="p-2">{{ r.status }}</td>
+      <td class="p-2"><a class="text-blue-600" href="/applications/{{ r.id }}">Open</a></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,24 @@
+{{ profile.salutation or "Dear Hiring Manager" }},
+
+I'm excited to apply for the {{ profile.target_title or "role" }} at {{ profile.target_company or "your company" }}. With experience spanning {{ profile.years_experience or "many" }} years across {{ ", ".join(profile.core_skills[:5]) if profile.core_skills else "software engineering" }}, I deliver measurable outcomes that matter.
+
+**Why I’m a match**
+- Your needs: {{ profile.match_focus or "build reliable systems, ship features, and improve quality" }}.
+- My track record: {{ profile.achievement_1 or "cut deployment time by 60% and reduced incidents by 40%" }}; {{ profile.achievement_2 or "led cross-functional launches across Dev, QA, and Ops" }}.
+
+**Selected, relevant wins**
+- {{ profile.win_1 or "Automated CI/CD pipelines, slashing lead time from days to hours." }}
+- {{ profile.win_2 or "Built scalable APIs handling millions of requests/day." }}
+- {{ profile.win_3 or "Mentored engineers and created training that leveled-up the team." }}
+
+**Fit for your JD**
+I read your description carefully. Here’s how I’d help:
+- {{ profile.jd_fit_1 or "Translate ambiguous requirements into secure, testable features." }}
+- {{ profile.jd_fit_2 or "Add observability and guardrails to prevent regressions." }}
+
+I’d love to discuss how these outcomes translate to {{ profile.target_company or "your team" }}. Thank you for your time.
+
+Best regards,
+{{ profile.name }}
+{{ profile.contact_email }} • {{ profile.contact_phone }} • {{ profile.location }}
+{{ profile.portfolio_url }} • {{ profile.github_url }} • {{ profile.linkedin_url }}

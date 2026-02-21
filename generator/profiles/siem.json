@@ -1,0 +1,17 @@
+﻿{
+  "output_name": "SIEM_Engineer",
+  "summary": "Cyber Security Support Analyst focused on SIEM engineering, KQL detection development, Tenable vulnerability management, and DISA STIG compliance.",
+  "skills": ["Microsoft Sentinel", "KQL", "Tenable", "DISA STIG", "PowerShell", "EDR", "Azure"],
+  "experience_blocks": [
+    {
+      "title": "Log(N) Pacific â€” Cyber Security Support Analyst",
+      "block": "blocks/experience/logn_pacific.md",
+      "max_bullets": 8
+    },
+    {
+      "title": "UTRS â€” Senior Software Engineer / Secure Systems Engineer",
+      "block": "blocks/experience/utrs.md",
+      "max_bullets": 6
+    }
+  ]
+}

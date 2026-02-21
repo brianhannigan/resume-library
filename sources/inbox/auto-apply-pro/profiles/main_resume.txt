@@ -1,0 +1,1 @@
+[Paste your full resume text here exactly. This file is used to enrich cover letters if LLM is disabled.]
