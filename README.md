@@ -1,6 +1,6 @@
-Resume Library Generator System
+Resume Library Generator (Enterprise System)
 
-A structured, reproducible resume generation system designed to:
+A structured, reproducible resume-generation system designed to:
 
 Maintain a single source-of-truth career inventory
 
@@ -12,47 +12,28 @@ Produce DOCX / PDF / TXT outputs
 
 Log provenance for traceability
 
-Support USAJobs 2-page mode
+Support USAJobs ≤ 2-page constraints
 
 Scale across cybersecurity, engineering, and compliance roles
 
-System Overview
+System Philosophy
 
-This repository separates:
+This repository treats resume building like software.
 
-Content (Blocks) — long-form master career inventory
+Instead of editing multiple Word documents:
 
-Profiles (Blueprints) — role-specific resume configurations
+Blocks contain truth.
 
-Generator (Assembler) — builds formatted outputs
+Profiles define intent.
 
-Variants (Outputs) — final resumes ready to submit
+Modes enforce constraints.
 
-Provenance Logs — traceability for every build
+Generator assembles artifacts.
 
-The system is designed to behave like software, not a static document.
+Provenance logs provide traceability.
 
-High-Level Architecture
-sources/ (optional raw resumes, inbox docs)
-        │
-        ▼
-blocks/ (source-of-truth bullet inventory)
-  blocks/experience/*.md
-  blocks/projects/*.md
-  blocks/skills/*.md
-        │
-        ▼
-generator/profiles/*.json (resume blueprints)
-        │
-        ▼
-generator/build_resume.py (assembly pipeline)
-        │
-        ├── DOCX
-        ├── PDF
-        ├── TXT
-        └── provenance.json
-        ▼
-variants/ (final resume outputs)
+You update once → regenerate everywhere.
+
 Repository Structure
 resume-library/
 │
@@ -76,30 +57,46 @@ resume-library/
 │   ├── logs/
 │   └── output/
 │
-├── variants/          (generated resumes)
-└── sources/           (optional raw source resumes)
-System Design Philosophy
-
-Blocks are long and complete.
-
-Profiles select what matters.
-
-Modes determine how much gets shown.
-
-Outputs are reproducible and traceable.
-
+├── variants/          # generated resume artifacts
+└── sources/           # optional raw resume documents
+High-Level Architecture
+sources/ (raw resumes, docs, inbox)
+        │
+        ▼
+blocks/ (master bullet inventory)
+  blocks/experience/*.md
+  blocks/projects/*.md
+  blocks/skills/*.md
+        │
+        ▼
+profiles/*.json (resume blueprints)
+        │
+        ▼
+build_resume.py (assembler)
+        │
+        ├── DOCX
+        ├── PDF
+        ├── TXT
+        └── provenance.json
+        ▼
+variants/
+Sequence Diagram
+Component Diagram
+Build Modes
+Mode	Purpose	Behavior
+usajobs	Federal submissions	Aggressive trimming, ≤2 pages
+standard	Balanced version	Moderate bullet count
+full	Comprehensive	Maximum bullet inclusion
 Functional Requirements
-FR-1: Source-of-Truth Inventory
+FR-1 Source-of-Truth Inventory
 
 All experience content lives in blocks/.
 
-Blocks may include headings, but bullets must start with -.
+Bullets must begin with -.
 
-Blocks should remain comprehensive.
+FR-2 Profile-Driven Variants
 
-FR-2: Profile-Driven Variants
-
-Each profile JSON defines:
+Profiles define:
 
 summary
 
@@ -107,7 +104,7 @@ tagline
 
 contact
 
-experience roles (each referencing a block file)
+experience blocks
 
 skills
 
@@ -117,160 +114,9 @@ certifications
 
 education
 
-FR-3: Multi-Format Output
+FR-3 Multi-Format Output
 
-Generator must produce:
-
-DOCX
-
-PDF
-
-TXT (ATS-safe)
-
-FR-4: Mode-Based Trimming
-
-Supported modes:
-
-usajobs
-
-Aggressive trimming
-
-Fewer bullets per role
-
-Optimized for ≤2 pages
-
-standard
-
-Balanced presentation
-
-full
-
-Maximum bullet inclusion
-
-FR-5: Provenance Logging
-
-Each build writes:
-
-generator/logs/<resume>.provenance.json
-
-Includes:
-
-timestamp
-
-mode
-
-profile name
-
-block paths used
-
-bullets included
-
-FR-6: Deterministic Builds
-
-Given unchanged blocks + profile + mode,
-the same output should be generated consistently.
-
-Non-Functional Requirements
-NFR-1: Defensible Language
-
-Avoid inflated claims unless verified.
-
-Prefer:
-
-Supported
-
-Contributed
-
-Participated
-
-Implemented
-
-Developed
-
-Collaborated
-
-NFR-2: ATS Compatibility
-
-Clean UTF-8 output
-
-Minimal special characters
-
-No emoji
-
-No Unicode bullets (prefer -)
-
-NFR-3: Windows First
-
-Must run under PowerShell
-
-Compatible with Python 3.x
-
-NFR-4: Encoding Safe
-
-Support UTF-8 with BOM input
-
-Avoid JSON comments
-
-Profile Schema Specification
-
-Example: generator/profiles/siem.json
-
-{
-  "output_name": "SIEM_Engineer",
-  "summary": "...",
-  "skills": ["..."],
-  "experience": [
-    {
-      "company": "UTRS, Inc",
-      "title": "Senior Software Engineer",
-      "dates": "2011-2025",
-      "block": "blocks/experience/utrs.md",
-      "max_bullets": 10
-    }
-  ]
-}
-Build Pipeline Specification
-Step 1: Load Profile JSON
-
-Validate file exists
-
-Parse JSON
-
-Step 2: Read Block Files
-
-Extract lines starting with -
-
-Ignore template artifacts
-
-Step 3: Apply Mode Rules
-
-Cap bullets per role
-
-Optionally trim long bullets
-
-Reduce skills/projects count in USAJobs mode
-
-Step 4: Assemble Resume Sections
-
-Name
-
-Contact
-
-Tagline
-
-Summary
-
-Experience
-
-Skills
-
-Projects
-
-Certifications
-
-Education
-
-Step 5: Write Outputs
+Generator produces:
 
 DOCX
 
@@ -278,149 +124,177 @@ PDF
 
 TXT
 
-Provenance JSON
+FR-4 Mode-Based Trimming
 
-Operating Procedure
-Edit Experience Content
+Mode determines bullet caps and content density.
+
+FR-5 Provenance Logging
+
+Every build generates:
+
+generator/logs/<resume>.provenance.json
+
+Contains:
+
+timestamp
+
+profile
+
+mode
+
+block file paths
+
+bullets used
+
+Non-Functional Requirements
+
+Defensible language by default
+
+Windows-compatible
+
+ATS-friendly plain text output
+
+Encoding-safe reads/writes
+
+Deterministic output for stable inputs
+
+Operating Instructions
+Edit master inventory
 
 Modify:
 
 blocks/experience/*.md
-Edit Headline / Summary / Skills
+Edit resume blueprint
 
 Modify:
 
-generator/profiles/<profile>.json
-Build Resume
+generator/profiles/*.json
+Build
 
 From generator/:
 
 python build_resume.py siem --outdir ..\variants --mode usajobs --year 2026
+USAJobs 2-Page Enforcement Strategy
 
-Other modes:
+To guarantee compliance:
 
-python build_resume.py siem --outdir ..\variants --mode standard
-python build_resume.py siem --outdir ..\variants --mode full
-Provenance Log Example
-generator/logs/Brian_Hannigan_SIEM_Engineer_2026.provenance.json
+10pt font
 
-Contains:
+0.5"–0.7" margins
 
-{
-  "generated_at": "...",
-  "mode": "usajobs",
-  "profile": "SIEM_Engineer",
-  "experience": [
-    {
-      "role": "UTRS, Inc | Senior Software Engineer | 2011-2025",
-      "block": "blocks/experience/utrs.md",
-      "bullets_used": [...]
-    }
-  ]
-}
+Max 3–4 bullets per role
+
+Limited skills + projects
+
+If output exceeds 2 pages, adjust:
+
+bullet caps
+
+font size
+
+margins in build_docx()
+
+Product Requirements Document (PRD)
+Problem
+
+Managing multiple resume versions manually creates:
+
+duplication
+
+inconsistencies
+
+formatting drift
+
+lost edits
+
+Solution
+
+A deterministic generator that:
+
+stores master career data in blocks
+
+builds role-specific variants
+
+logs exactly what content was used
+
+Goals
+
+Single source of truth
+
+Fast variant generation
+
+USAJobs compliance
+
+Provenance traceability
+
+Scalable architecture
+
+Non-Goals
+
+Auto-scraping job descriptions (future enhancement)
+
+AI content generation without human validation
+
+Success Criteria
+
+Build completes cleanly
+
+Outputs generated in expected directory
+
+Provenance file matches resume content
+
+USAJobs mode reliably ≤2 pages
+
 Control Points (How to Redirect the System)
-Control Point A: Block Granularity
+Block Granularity
 
-Option A — One file per employer (current)
+Option A: One file per employer
+Option B: Split employer by theme (security vs engineering vs training)
 
-Option B — One file per employer per theme:
+Mode Policies
 
-utrs_security.md
+Adjust bullet caps and trimming behavior.
 
-utrs_engineering.md
+Strict Defensibility Mode
 
-utrs_training.md
+Add automated checks for inflated verbs.
 
-Option B gives finer control and better USAJobs precision.
+Keyword Injection Mode (Future)
 
-Control Point B: Page Enforcement
+Inject ATS keyword clusters dynamically.
 
-To guarantee 2-page compliance:
-
-Enforce 10pt font
-
-0.5–0.7" margins
-
-Limit bullets to 4 per role
-
-This can be hard-coded into build_docx().
-
-Control Point C: Strict Defensibility Mode
-
-Future enhancement:
-
-Flag high-claim verbs
-
-Warn on "led", "architected", "owned"
-
-Output review report
-
-Control Point D: Source Trace Mapping
-
-Optional future addition:
-
-Map each block bullet to a specific original resume source
-
-Enable full traceability chain
-
-Known Risks and Mitigation
+Known Risks
 Risk	Cause	Mitigation
-Bullets cut mid-sentence	aggressive trim	Keep bullets under 140 chars
-Encoding artifacts	copy from Word	Use ASCII punctuation
-JSON load errors	comments in JSON	JSON must be pure
-Resume too long	full mode used	switch to usajobs mode
-Recommended Best Practices
+Mid-sentence cuts	aggressive trimming	shorten bullets
+Encoding artifacts	copy from Word	use ASCII punctuation
+JSON errors	invalid formatting	pure JSON only
+Length overflow	too many bullets	tighten mode rules
+Roadmap
 
-Keep blocks comprehensive.
+Planned Enhancements:
 
-Keep bullets concise.
+Resume lint (defensibility + length checker)
 
-Avoid Unicode punctuation.
+Batch build all profiles
 
-Use - only for bullets.
+GitHub Actions CI
 
-Never put comments inside JSON.
+Keyword density scoring
 
-Expansion Roadmap
+Automated diff comparison between variants
 
-Planned enhancements:
-
-ATS keyword density scoring
-
-Clearance flag support
-
-Automatic job description keyword injection
+Clearance tagging
 
 PDF styling themes
 
-Resume comparison diff mode
+Summary
 
-Word margin enforcement
+This repository transforms resume management from manual document editing into:
 
-Strict compliance mode
-
-Multi-profile batch build
-
-CLI config file support
-
-System Summary
-
-This repository transforms resume building from:
-
-Static document editing
-
-into:
-
-Structured, reproducible, traceable output generation.
+A structured, reproducible build system.
 
 Blocks contain truth.
-
 Profiles define intent.
-
 Modes enforce constraints.
-
-Generator assembles results.
-
-Variants are deployable.
-
-Provenance ensures traceability.
+Generator assembles outputs.
+Logs provide traceability.
